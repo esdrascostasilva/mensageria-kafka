@@ -3,7 +3,7 @@
 // criar uma instancia do obj de config
 
 
-var config = new ProducerConfig { BootstrapServers = "localhost:9021" };
+var config = new ProducerConfig { BootstrapServers = "localhost:9092" };
 //<chave, valor>
 using var producer = new ProducerBuilder<string, string>(config).Build();
 
@@ -11,9 +11,9 @@ using var producer = new ProducerBuilder<string, string>(config).Build();
 var message = new Message<string, string>
 {
     Key = Guid.NewGuid().ToString(),
-    Value = $"Mensagem de Teste Id {Guid.NewGuid().ToString()}",
+    Value = $"Mensagem de Teste {DateTime.Now}",
 };
 
 var result = await producer.ProduceAsync("topic_test", message);
 
-Console.WriteLine($"{result.Offset}");
+Console.WriteLine($"Offset: {result.Offset}");
