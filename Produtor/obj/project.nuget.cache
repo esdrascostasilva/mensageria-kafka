@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "iz1rJrQVA/dhTLpX+SN0dzkfJ3myABne9/EhUgvJCZYVF6C4RDIgjcDV2eiefGpg4qb1TO9PU17+JRNb7fEdHA==",
+  "success": true,
+  "projectFilePath": "/Users/esdrascosta/Projects/Mensageria-Kafka/Produtor/Produtor.csproj",
+  "expectedPackageFiles": [
+    "/Users/esdrascosta/.nuget/packages/confluent.kafka/1.8.2/confluent.kafka.1.8.2.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/librdkafka.redist/1.8.2/librdkafka.redist.1.8.2.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/system.memory/4.5.0/system.memory.4.5.0.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.19/microsoft.aspnetcore.app.ref.6.0.19.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.19/microsoft.netcore.app.host.osx-arm64.6.0.19.nupkg.sha512",
+    "/Users/esdrascosta/.nuget/packages/microsoft.netcore.app.ref/6.0.19/microsoft.netcore.app.ref.6.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}
