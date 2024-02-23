@@ -16,4 +16,4 @@ var message = new Message<string, string>
 
 var result = await producer.ProduceAsync("topic_test", message);
 
-Console.WriteLine($"Offset: {result.Offset}");
+Console.WriteLine($"Offset: {result.Offset}, Header: {result.Headers}, Partition: {result.Partition}");

@@ -44,6 +44,10 @@
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Confluent.SchemaRegistry.Serdes.Avro": {
+              "target": "Package",
+              "version": "[2.3.0, )"
             }
           },
           "imports": [

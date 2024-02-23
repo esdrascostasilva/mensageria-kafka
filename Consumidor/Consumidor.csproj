@@ -9,6 +9,11 @@
 
   <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.3.0" />
+    <PackageReference Include="Confluent.SchemaRegistry.Serdes.Avro" Version="2.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="tuvigaDev/" />
   </ItemGroup>
 
 </Project>
